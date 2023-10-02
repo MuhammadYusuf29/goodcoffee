@@ -1,0 +1,32 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h3 {
+    font-size: 22px;
+    font-size:"ClickerScript";
+}
+
+.hero h1 {
+    font-family:  "ClickerScript";
+    font-weight: 100;
+    font-size: 220px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap'); */
+
+@import url(./media.css);
+
+@font-face {
+    font-family: "ClickerScript";
+    src: url(../fonts/Clicker_Script/ClickerScript-Regular.ttf);
+}
+@font-face {
+    font-family: "PlayfarirDisplay";
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 40px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}

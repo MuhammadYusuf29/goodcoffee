@@ -1,0 +1,51 @@
+.why {
+    text-align: center;
+}
+
+.why h1 {
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.why h3 {
+    color: #70707070;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.why .row {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.why .col {
+    display: flex;
+    gap: 15px;
+    padding: 20px 0;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #fff9f1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.why .col:hover {
+    background: #FFEED8;
+}
+
+.why .col h4 {
+    color: #603809;
+    font-family:"PlayfarirDisplay";
+    font-size: 28px;
+}
+
+.why .col p {
+    color: #707070;
+    text-align: center;
+    font-family: "PlayfarirDisplay";
+    font-size: 20px;
+    font-weight: 400;
+}

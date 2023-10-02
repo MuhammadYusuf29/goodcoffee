@@ -1,0 +1,57 @@
+header {
+    width: 100%;
+    height: fit-content;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: .5s;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 35px;
+    font-family: "ClickerScript";
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+header ul li a {
+    font-size: 16px;
+    font-family: "PlayfarirDisplay";
+}
+.burger {
+    display: none;
+    align-items: center; 
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.show {
+    right: 0;
+}
+nav,
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background: #f9c06a;
+    padding: 10px 15px;
+    border-radius: 25px;
+    /* box-shadow: 10px 12px 24px 10px rgba(237, 146, 9, 0.22); */
+}
+
+.btn {
+    color: #000;
+}

@@ -1,0 +1,77 @@
+.srch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srch input {
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    padding: 15px;
+    font-size: 20px;
+    font-family: "PlayfarirDisplay";
+    margin-top: 60px;
+    width: 450px;
+    outline: none;
+    font-weight: 400;
+    color: orange;
+}
+
+.srch button {
+    padding: 16px;
+    font-size: 20px;
+    margin-top: 60px;
+    font-family:"PlayfarirDisplay";
+    border: none;
+    background: #f9c06a;
+    color: #000;
+    cursor: pointer;
+}
+
+.oxrigi {
+    background: url(../img/12.jpg), linear-gradient(#211201, #291704);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.oxrigi .col-4 p,
+.oxrigi .col-4 h1 {
+    margin-bottom: 30px;
+}
+
+.oxrigi .col-3 li,
+.col-2 li {
+    margin-bottom: 30px;
+}
+
+.oxrigi p {
+    color: #FFF;
+    font-family: "PlayfarirDisplay";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.oxrigi .col-3 h1,
+.col-2 h1 {
+    color: #FFF;
+    font-family: "PlayfarirDisplay";
+    font-size: 26px;
+}
+
+.oxrigi .logo {
+    color: #FFF;
+    font-family:  "ClickerScript";
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.oxrigi li {
+    color: #FFF;
+    font-family: "PlayfarirDisplay";
+    font-size: 18px;
+}
+

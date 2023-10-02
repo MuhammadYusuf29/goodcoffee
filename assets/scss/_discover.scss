@@ -1,0 +1,85 @@
+.dicover .col:nth-child(1) {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dicover h1 {
+    font-size: 54px;
+    color: #603809;
+}
+
+.dicover p {
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: "PlayfarirDisplay";
+    font-weight: 700;
+    color: #70707070;
+}
+
+.dicover .btn {
+    margin-top: 20px;
+}
+
+.enjoy h1 {
+    display: flex;
+    justify-content: center;
+    color: #603809;
+    font-family: "PlayfarirDisplay";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.enjoy h3 {
+    display: flex;
+    justify-content: center;
+    color: #70707070;
+    font-family: "PlayfarirDisplay";
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.enjoy .row {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.enjoy .col {
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #fff9f1;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+.enjoy .col h4 {
+    color: #603809;
+    font-family: "PlayfarirDisplay";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.enjoy .col h5 {
+    color: #1E1E1E;
+    font-family: "PlayfarirDisplay";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.enjoy .col h6 {
+    color: #603809;
+    font-family: "PlayfarirDisplay";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.enjoy .btn {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 15px;
+    width: 110px;
+}
